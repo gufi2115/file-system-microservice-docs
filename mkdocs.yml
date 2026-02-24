@@ -1,0 +1,49 @@
+site_name: Microservice to handle files with integration library Documentation
+site_url: https://microservicetohandlefilesdocs.github.io
+theme:
+  name: material
+  icon:
+    logo: material/briefcase-upload
+  palette:
+    # Dark Mode
+   - scheme: slate
+     primary: light blue
+     toggle:
+       icon: material/weather-sunny
+       name: Light mode
+     accent: blue
+
+    # Light Mode
+   - scheme: default
+     toggle:
+       icon: material/weather-night
+       name: Light mode
+     primary: light blue
+     accent: blue
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      reconfigure_material: true
+      docs_structure: suffix
+      fallback_to_default: true
+
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+
+        - locale: pl
+          name: Polski
+          build: true
+          nav_translations:
+            Index: Indeks
+            How to start: "Jak uruchomić"
+            Architecture: Architektura
+
+nav:
+  - Index: index.md
+  - How to start: "How to start.md"
+  - Architecture: Architecture.md
