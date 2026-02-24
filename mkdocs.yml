@@ -21,6 +21,8 @@ theme:
      primary: light blue
      accent: blue
 
+use_directory_urls: true
+
 plugins:
   - search
   - i18n:
