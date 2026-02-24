@@ -1,3 +1,3 @@
 ## Architektura mikroserwisu
 
-<img src="/assets/images/architektura.png">
+<img src="./assets/images/architektura.png">

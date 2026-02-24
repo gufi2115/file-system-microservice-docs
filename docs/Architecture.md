@@ -1,3 +1,3 @@
 ## Microservice Architecture
 
-<img src="/assets/images/architektura.png">
+<img src="./assets/images/architektura.png">
